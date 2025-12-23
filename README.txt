@@ -16,6 +16,10 @@ Technology Stack
 - Scikit-learn (Support Vector Machine)
 - Flask (backend)
 - HTML, CSS, minimal JavaScript (frontend)
+Dataset Usage
+-------------
+Images containing only broken grains and only whole grains were used for model training to ensure clean and correct labels at the grain level. Images containing mixed grains were excluded from training and used only during inference and final testing to simulate real-world usage.
+
 
 Workflow Summary
 ----------------
@@ -61,3 +65,4 @@ Assumptions & Limitations
 Author
 ------
 Siddhi
+
